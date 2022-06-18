@@ -1,6 +1,52 @@
 .messages-output {
     height: 75vh;
-    border: 1px solid lightgray;
+    border: 2px solid lightgray;
     overflow-y: scroll;
     margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.message-body {
+    border: 1px solid lightgreen;
+    margin: 20px;
+    background-color: lightgreen;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.incomming-message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.incomming-message .message-body {
+    border: 1px solid lightblue;
+    margin: 20px;
+    background-color: lightblue;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+.msg-sender {
+    text-decoration-color: black;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.msg-content {
+    text-decoration-color: black;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.msg-time {
+    text-decoration-color: black;
+    font-weight: bold;
+    text-align: end;
+    font-size: small;
 }
